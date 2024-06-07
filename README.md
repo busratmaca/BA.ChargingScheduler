@@ -55,3 +55,4 @@ For this exercise, market demands are ignored. We focus on:
 
 1. http://localhost:5209/swagger/index.html
 
+[example files for charging](https://github.com/user-attachments/files/15739251/test.xlsx)
