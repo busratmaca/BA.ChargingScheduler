@@ -15,9 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.ChargingScheduler.Core",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.ChargingScheduler.Service", "src\BA.ChargingScheduler.Service\BA.ChargingScheduler.Service.csproj", "{30FC52C8-147D-4703-A7DA-4F528C66CBBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BA.ChargingScheduler.Api", "src\BA.ChargingScheduler.Api\BA.ChargingScheduler.Api.csproj", "{C2828190-4370-4D10-8FBB-CAB86B15A6CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.ChargingScheduler.Api", "src\BA.ChargingScheduler.Api\BA.ChargingScheduler.Api.csproj", "{C2828190-4370-4D10-8FBB-CAB86B15A6CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BA.ChargingScheduler.Logic", "src\BA.ChargingScheduler.Logic\BA.ChargingScheduler.Logic.csproj", "{1E2FE769-03F4-49E4-9758-2B82B2A83ABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.ChargingScheduler.Logic", "src\BA.ChargingScheduler.Logic\BA.ChargingScheduler.Logic.csproj", "{1E2FE769-03F4-49E4-9758-2B82B2A83ABE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E8C0FD15-6830-4770-8D8F-BF3504FE6CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChargingScheduler.Tests", "test\ChargingScheduler.Tests\ChargingScheduler.Tests.csproj", "{5B333A22-36EE-4710-8C78-0587AE5468E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{1E2FE769-03F4-49E4-9758-2B82B2A83ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E2FE769-03F4-49E4-9758-2B82B2A83ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E2FE769-03F4-49E4-9758-2B82B2A83ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B333A22-36EE-4710-8C78-0587AE5468E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B333A22-36EE-4710-8C78-0587AE5468E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B333A22-36EE-4710-8C78-0587AE5468E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B333A22-36EE-4710-8C78-0587AE5468E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,7 @@ Global
 		{30FC52C8-147D-4703-A7DA-4F528C66CBBC} = {3537CDEE-EB6A-4E92-A8F2-E7835A9B2641}
 		{C2828190-4370-4D10-8FBB-CAB86B15A6CF} = {3537CDEE-EB6A-4E92-A8F2-E7835A9B2641}
 		{1E2FE769-03F4-49E4-9758-2B82B2A83ABE} = {3537CDEE-EB6A-4E92-A8F2-E7835A9B2641}
+		{5B333A22-36EE-4710-8C78-0587AE5468E0} = {E8C0FD15-6830-4770-8D8F-BF3504FE6CD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F326CC45-4EF6-4C68-84B0-0CF32E3E3D1C}
